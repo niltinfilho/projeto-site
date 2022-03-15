@@ -78,9 +78,9 @@ main h1 {
 main button {
     border: none;
     background: linear-gradient(to right, #F22248, #8C0335);
-    width:421px;
     height: 80px;
     border-radius: 26px;
+    padding: 0px 25px;
     font-size: 36px;
     color: white;
     transition-duration: .4s;
@@ -88,6 +88,6 @@ main button {
 }
 
 main button:hover {
-    width: 450px;
+    padding: 0px 40px;
     height: 100px;
 }
