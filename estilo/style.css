@@ -11,6 +11,7 @@
 body {
     background: linear-gradient(to right, #EFEFEF, #FFFFFF);
     padding: 0% 7%;
+    
 }
 
 header {
@@ -18,13 +19,14 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0px;
-    max-height: 30px;
+    padding:15px 0px;
+    min-height: 20px;
+    width: 100%;
 }
 
 header nav a {
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 400;
     padding: 0px 30px;
     color: rgba(0, 0, 0, 0.384);
@@ -50,7 +52,7 @@ header button {
 
 header button:hover {
     width: 170px;
-    height: 80px;
+    height: 75px;
 }
 
 header nav a.atual {
@@ -61,6 +63,7 @@ main {
     padding-top: 70px;
     margin: auto;
     border-top: .4px solid black;
+    
 }
 
 main section {
@@ -72,7 +75,7 @@ main section {
 
 main h1 {
     font-family: 'Montserrat';
-    font-size: 96px;
+    font-size: 86px;
 }
 
 main button {
@@ -82,6 +85,7 @@ main button {
     border-radius: 26px;
     padding: 0px 25px;
     font-size: 36px;
+    font-weight: 500;
     color: white;
     transition-duration: .4s;
     box-shadow: 5px 9px 25px rgba(0, 0, 0, 0.25);
@@ -90,4 +94,8 @@ main button {
 main button:hover {
     padding: 0px 40px;
     height: 100px;
+}
+
+main img {
+    max-width: 550px;
 }
