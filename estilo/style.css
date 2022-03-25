@@ -11,7 +11,6 @@
 body {
     background: linear-gradient(to right, #EFEFEF, #FFFFFF);
     padding: 0% 7%;
-    
 }
 
 header {
@@ -22,6 +21,11 @@ header {
     padding:15px 0px;
     min-height: 20px;
     width: 100%;
+    position: sticky;
+    top: 0%;
+    border-bottom: .4px solid black;
+    background: linear-gradient(to right, #EFEFEF, #FFFFFF);
+    z-index: 9;
 }
 
 header nav a {
@@ -40,6 +44,7 @@ header nav a:hover {
 header button {
     font-family: 'Montserrat';
     font-size: 35px;
+    font-weight: 500;
     color: white;
     background: linear-gradient(to right, #F22248, #8C0335);
     box-shadow: 5px 9px 25px rgba(0, 0, 0, 0.25);
@@ -62,8 +67,7 @@ header nav a.atual {
 main {
     padding-top: 70px;
     margin: auto;
-    border-top: .4px solid black;
-    
+    position: relative;
 }
 
 main section {
@@ -98,4 +102,18 @@ main button:hover {
 
 main img {
     max-width: 550px;
+}
+
+.conteudo-principal {
+    margin-bottom: 80px;
+}
+
+#sobre-nos {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    line-height: 2em;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
 }
