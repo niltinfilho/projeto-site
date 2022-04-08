@@ -19,7 +19,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding:15px 0px;
-    min-height: 20px;
+    height: 7vh;
     width: 100%;
     position: sticky;
     top: 0%;
@@ -28,9 +28,13 @@ header {
     z-index: 9;
 }
 
+header img {
+    width: 65px;
+}
+
 header nav a {
     font-family: 'Montserrat';
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 400;
     padding: 0px 30px;
     color: rgba(0, 0, 0, 0.384);
