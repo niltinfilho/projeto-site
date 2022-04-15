@@ -47,21 +47,21 @@ header nav a:hover {
 
 header button {
     font-family: 'Montserrat';
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 500;
     color: white;
     background: linear-gradient(to right, #F22248, #8C0335);
     box-shadow: 5px 9px 25px rgba(0, 0, 0, 0.25);
-    border-radius: 26px;
-    width: 150px;
-    height: 70px;
+    border-radius: 20px;
+    width: 11%;
+    height: 110%;
     border: none;
     transition-duration: .4s;
 }
 
 header button:hover {
-    width: 170px;
-    height: 75px;
+    width: 13%;
+    height: 130%;
 }
 
 header nav a.atual {
@@ -70,7 +70,7 @@ header nav a.atual {
 
 main {
     padding-top: 70px;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -89,9 +89,8 @@ main h1 {
 main button {
     border: none;
     background: linear-gradient(to right, #F22248, #8C0335);
-    height: 80px;
     border-radius: 26px;
-    padding: 0px 25px;
+    padding: 20px 25px;
     font-size: 36px;
     font-weight: 500;
     color: white;
@@ -100,8 +99,7 @@ main button {
 }
 
 main button:hover {
-    padding: 0px 40px;
-    height: 100px;
+    padding: 30px 40px;
 }
 
 main img {
